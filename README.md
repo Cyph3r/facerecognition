@@ -1,3 +1,6 @@
+A React app to detect the location of faces on user provided photos.
+![Facial Recognition](ProjectImage.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
