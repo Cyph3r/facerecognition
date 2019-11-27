@@ -1,5 +1,7 @@
 A React app to detect the location of faces on user provided photos.
-![Facial Recognition](README-Image.png)
+![Facial Recognition](imgExample.png)
+![Facial Recognition](imgRegister.png)
+![Facial Recognition](imgApp.png)
 
 ---
 
