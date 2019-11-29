@@ -1,4 +1,9 @@
 import React from "react";
+import dotenv from "dotenv";
+dotenv.config({ path: "../.." });
+
+const apiHost = process.env.REACT_APP_APIHOST || "localhost";
+const port = process.env.REACT_APP_PORT || 3000;
 
 class Register extends React.Component {
 	constructor(props) {
@@ -23,7 +28,7 @@ class Register extends React.Component {
 	};
 
 	onSubmitSignIn = () => {
-		fetch("http://localhost:3000/register", {
+		fetch(`http://${apiHost}:${port}/register`, {
 			method: "post",
 			headers: { "Content-Type": "application/json" },
 			body: JSON.stringify({
